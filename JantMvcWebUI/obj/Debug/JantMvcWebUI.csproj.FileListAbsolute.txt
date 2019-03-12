@@ -1,0 +1,209 @@
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Mvc.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\System.Web.Mvc.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\JantMvcWebUI.dll.config
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Razor.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Webpages.Razor.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.Mvc.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.Mvc.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.Mvc.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Http.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\PagedList.Mvc.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Http.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Newtonsoft.Json.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.Mvc.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Mvc.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Newtonsoft.Json.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.Mvc.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Mvc.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Bll.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Dal.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Entities.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Newtonsoft.Json.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.Mvc.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Helpers.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Mvc.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Razor.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Bll.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Dal.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\Newtonsoft.Json.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\PagedList.Mvc.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Helpers.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Mvc.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.Razor.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\obj\Debug\JantMvcWebUI.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.dll.CodeAnalysisLog.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\JantMvcWebUI\bin\JantMvcWebUI.dll.lastcodeanalysissucceeded

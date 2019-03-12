@@ -1,0 +1,138 @@
+﻿@model Jant.Entities.Urun
+@{
+    ViewBag.Title = "UpdateProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateProduct", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="col-lg-9 login-form">
+        <div class="login-form-title">Ürün Güncelleme Sayfası..</div>
+        <div class="form-inputs">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11">
+                    <div class="forminfo">Lütfen aşağıdaki formu eksiksiz doldurunuz.</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    @Html.HiddenFor(value => value.UrunId, Model.UrunId)
+                    @Html.DropDownListFor(p => p.Marka.MarkaId, new SelectList(ViewBag.Markalar, "Value", "Text"))
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+
+                    <span><i class="icon-right-open"></i>Jant Tipi:</span>
+                    <div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.KategoriId, "1", new { @checked = true }) Aliminyum
+                        </div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.KategoriId, "2") Çelik
+                        </div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.KategoriId, "3") Sac
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <label>Ürün Kodu :</label>
+                    @Html.TextBoxFor(p => p.UrunKodu)
+                    @Html.ValidationMessageFor(p => p.UrunKodu, String.Empty, new { @style = "color:red;!important" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <div>
+                        <span><i class="icon-right-open"></i>Jant Çapı(İnç):</span>
+                        <div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "13", new { @checked = true }) 13
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "14") 14
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "15") 15
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "16") 16
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "17") 17
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "18") 18
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "19") 19
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButtonFor(model => model.Cap, "22") 22
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <label>Ürün Fiyatı (TL) :</label>
+                    @Html.TextBoxFor(p => p.Fiyat)
+                    @Html.ValidationMessageFor(p => p.Fiyat, String.Empty, new { @style = "color:red;!important" })
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <label>Ürün Açıklaması :</label>
+                    @Html.TextBoxFor(p => p.Aciklama)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+
+                    <span><i class="icon-right-open"></i>Haftanın Ürünü mü?</span>
+                    <div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.HaftaninUrunu, "false", new { @checked = true }) Hayır
+                        </div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.HaftaninUrunu, "true") Evet
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+
+                    <span><i class="icon-right-open"></i>Ayın Ürünü mü?</span>
+                    <div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.AyinUrunu, "false", new { @checked = true }) Hayır
+                        </div>
+                        <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                            @Html.RadioButtonFor(model => model.AyinUrunu, "true") Evet
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit green-btn pull-right">
+
+                <input type="submit" value="Ürünü Güncelle" /><div class="arrow-down"></div>
+            </div>
+        </div>
+    </div>
+
+}

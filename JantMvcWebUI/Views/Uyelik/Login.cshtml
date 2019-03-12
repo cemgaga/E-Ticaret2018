@@ -1,0 +1,45 @@
+﻿@model JantMvcWebUI.Models.MemberLoginModel
+@{
+    ViewBag.Title = "Giriş Yap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts
+{
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Medicalscript.js")" type="text/javascript"></script>
+}
+
+@using (Html.BeginForm("Login", "Uyelik", FormMethod.Post))
+{
+    <div class="col-lg-9 login-form">
+        <div class="login-form-title">Üye Girişi</div>
+        <div class="form-inputs">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <label>E-Mail Adresiniz :</label>
+                    @Html.TextBoxFor(p => p.Email, new { @Value = ""})
+                    @Html.ValidationMessageFor(p => p.Email, String.Empty, new { @style = "color:red;!important" })
+                </div>
+                <div class="col-sm-5">
+                    <label>Şifreniz :</label>
+                    @Html.PasswordFor(p => p.Parola,new { @Value = ""})
+                    @Html.ValidationMessageFor(p => p.Parola, String.Empty, new { @style = "color:red;!important" })
+
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+            <div class="submit green-btn pull-right">
+                <input type="submit" value="Giriş Yap" /><div class="arrow-down"></div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+}
+
+
+

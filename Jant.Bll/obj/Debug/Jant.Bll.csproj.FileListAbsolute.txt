@@ -1,0 +1,66 @@
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Bll\obj\Debug\Jant.Bll.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Bll\obj\Debug\Jant.Bll.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Bll.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Bll.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Bll\obj\Debug\Jant.Bll.pdb

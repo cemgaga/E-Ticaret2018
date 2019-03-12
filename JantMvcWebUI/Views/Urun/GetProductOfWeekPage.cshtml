@@ -1,0 +1,461 @@
+﻿@model Jant.Entities.Urun
+@{JantMvcWebUI.Models.MemberLoginModel m = null;}
+@{
+    Layout = null;
+    ViewBag.Title = "Ürün Detay Sayfası";
+}
+@{
+    short yuzde = 5;
+    if (Model.HaftaninUrunu==true || Model.AyinUrunu==true)
+    {
+        yuzde = 10;
+    }
+    decimal indirimli = Model.Fiyat - (Model.Fiyat * yuzde / 100);
+    decimal kdvli = indirimli + (indirimli * 18 / 100);
+    string kategori = "";
+    if (Model.KategoriId == 1) { kategori = "ALÜMİNYUM"; }
+    if (Model.KategoriId == 2) { kategori = "ÇELİK"; }
+    else { kategori = "SAC"; }
+ }
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+
+    <title>@ViewBag.Title </title>
+    <!-- Responsive Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main CSS -->
+    <link href="~/Content/Css/main.css" rel="stylesheet" type="text/css" />
+    <!-- Font Face -->
+    <link href="~/Content/Css/font-face.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/Css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- Fontello (IconFont)-->
+    <link rel="stylesheet" href="~/Content/Css/fontello.css">
+    <link rel="stylesheet" href="~/Content/Css/animation.css">
+    <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+    <!-- Flex Slider -->
+    <link rel="stylesheet" href="~/Content/Css/flexslider.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="~/Content/Css/responsive.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <div class="header-bg-wrapper">
+                <div class="header-bg">
+                </div>
+            </div>
+            <style>
+                #left-menu a, visited {
+                    display: block !important;
+                    transition: all 0.4s;
+                    -moz-transition: all 0.4s;
+                    -webkit-transition: all 0.4s;
+                }
+
+                #header-cats a, visited {
+                    display: block !important;
+                    height: 100%;
+                    line-height: 35px;
+                    transition: all 0.4s;
+                    -moz-transition: all 0.4s;
+                    -webkit-transition: all 0.4s;
+                }
+
+                    #header-cats a:hover {
+                        color: #fff;
+                    }
+            </style>
+            @{
+                if (Session["UyeGirdi"] != null)
+                {
+                    m = (JantMvcWebUI.Models.MemberLoginModel)Session["UyeGirdi"];
+                }   
+                 }
+            <div class="container">
+                <div class="header-content col-lg-12">
+                    <div class="container">
+                        @if (Session["UyeGirdi"] == null)
+                        { 
+                             <div class="col-lg-4 pull-right login-text"><a href="/Uyelik/Login">Giriş Yap</a> | <a href="/Uyelik/Register">Yeni Üye</a></div>
+                        }
+                        else
+                        {
+                             <div class="col-lg-4 pull-right login-text"><a href=""/Sepet/Index"">@m.Email</a> | <a href="/Uyelik/LogOut">Çıkış Yap</a></div>
+                        }
+                        <div class="row"></div>
+                        <div class="row" id="sub-header">
+                            <a href="/Home/Index"><div class="col-sm-3" id="logo"></div></a>
+                            <div class="col-sm-7" id="searchbar">
+                                <div class="dropdown select-category">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kategori Seç<i class="icon-angle-down"></i></a>
+                                    <ul class="dropdown-menu" id="header-cats" role="menu" aria-labelledby="dLabel">
+                                        @{Html.RenderAction("GetAllMarka", "Marka");}
+
+                                    </ul>
+                                </div>
+                                <input type="text" placeholder="Akıllı Arama Sayesinde Aradığınızı Hemen Bulun.">
+                                <div class="searchbutton"><i class="icon-search"></i></div>
+                            </div>
+                            <div class="col-sm-2 hide-xs hide-s hide-ipad-dikey"><a href="/Sepet/Index"><div id="basket"><i class="icon-basket"></i> Sepetim</div></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Ends -->
+        <!-- Content -->
+        <div class="container">
+            <div id="content" class="col-lg-12">
+                <div class="row">
+                    <div id="sidebar" class="col-lg-3">
+                        <div id="menu-control" class="category-title">MARKALAR <i class="icon-th-list pull-right"></i></div>
+                        <ul id="left-menu" class="hiden-content">
+                            @{Html.RenderAction("GetAllMarka", "Marka");}
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 hide-xs hide-s">
+                        <div class="top-category">
+                            <ul>
+                                
+                                <div class="row">
+                                    <div class="col-sm-3"></div>
+                                    <li><a href="/Urun/GetProductOfWeek/">Haftanın Ürünü</a></li>
+                                    <li><a href="/Urun/GetProductsOfMonthPage/">Ayın Ürünleri</a></li>
+
+                                </div>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top-other-brands">
+                            Bu Markadaki Diğer Ürünler
+                            <div class="downarrow">v</div>
+                            <div class="otherbrands">
+                                <ul>
+                                    <li>@Model.UrunKodu</li>
+                                    <li>@Model.UrunKodu</li>
+                                    <li>@Model.UrunKodu</li>
+                                    <li>@Model.UrunKodu</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product-name"> @Model.Marka.MarkaAdi - @Model.UrunKodu</div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <div class="product-info">
+                            <div class="row">
+                                <div id="images" class="col-sm-4">
+                                    <div class="product-images">
+                                        @foreach (var item in Model.Resimler)
+                                        {
+                                            if (item.AnaResim == true)
+                                            {
+                                                <a href="~/Content/Wheels/@item.ResimUrl" data-fancybox-group="gallery" class="fancybox"><img id="big-product-image" src="~/Content/Wheels/@item.ResimUrl"></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="~/Content/Wheels/@item.ResimUrl" data-fancybox-group="gallery" class="fancybox"></a>
+                                            }
+
+                                        }
+                                        <div class="thumbs">
+                                            <ul id="product-images">
+                                                @foreach (var item in Model.Resimler)
+                                                {
+                                                    <li><img rel="~/Content/Wheels/@item.ResimUrl" src="~/Content/Wheels/@item.ResimUrl"></li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="pricing" class="col-sm-5 ">
+                                    <div class="detail-middle">
+                                        <div class="price-line">
+                                            <label>Etiket Fiyatı</label> : <span class="ticket-price">@Model.Fiyat TL + KDV</span>
+                                        </div>
+                                        <div class="price-line">
+                                            <label>İndirimli Fiyatı (%@yuzde)</label> : <span class="saleprice">@indirimli TL + KDV </span>
+                                        </div>
+                                        <div class="price-line">
+                                            <label>KDV Dahil</label> : <span class="taxesincluded">@kdvli TL</span>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                                <div id="social" class="col-sm-3">
+                                    <div class="product-right-side">
+                                        <div class="freeshipping">50 TL Üzeri <span>Kargo Bedava!</span></div>
+                                        <div class="facebooklike">
+                                            <div class="likebutton">
+
+                                            </div>
+                                        </div>
+                                        <a href="/Sepet/AddToCart/?productId=@Model.UrunId">
+                                            <div class="sendbasket"><div class="col-sm-1"></div>
+                                                <div class="col1"><i class="icon-basket"></i> Sepete At</div>
+                                            </div>
+                                        </a>
+                                         <div class="sendbasket">
+                                                <div class="col-sm2" style="color:white"><i class="icon-basket"></i>
+                                                   
+                                                    @if (m != null)
+                                                    { 
+                                                        @Html.RouteLink("Jant Dene!", new
+                                                        {
+                                                            mail = m.Email,
+                                                            jantResimAdi = Model.Resimler[0].ResimUrl,
+                                                            controller = "Urun",
+                                                            action = "TryWheel",
+
+                                                        }, new { target = "blank"})
+                                                    }
+                                                   
+                                                </div>
+                                            </div>
+                                        <div class="fastshipping"><i class="icon-clock"></i> Süper Hızlı Gönderi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product-more-info">
+                            <div class="tabs">
+                                <ul class="hide-xs">
+                                    <li class="current" rel="tab1">Ürün Açıklaması</li>
+                                    <li rel="tab4">Taksit Seçenekleri</li>
+                                    <li rel="tab5">Ürün Görselleri</li>
+                                </ul>
+                                <select class="tab-res">
+                                    <option value="tab1">Ürün Açıklaması</option>
+                                    <option value="tab4">Taksit Seçenekleri</option>
+                                    <option value="tab5">Ürün Görselleri</option>
+                                </select>
+                            </div>
+                            <div class="info-content" id="tab1">
+                                <div class="div-detail"><div class="col-sm-4"> Jantın Özellikleri</div></div>
+                                <div class="bdiv-detail">
+                                    <div class="col-sm-5"><span class="span-detail">Jantın Tipi : </span></div><span class="span-detail1">@kategori</span>
+                                    <div class="gdiv-detail"><div class="col-sm-5"><span class="span-detail">Jantın Markası : </span></div><span class="span-detail1">@Model.Marka.MarkaAdi</span></div>
+                                    <div class="bdiv-detail"><div class="col-sm-5"><span class="span-detail">Jantın Kodu : </span></div><span class="span-detail1">@Model.UrunKodu</span></div>
+                                    <div class="gdiv-detail"><div class="col-sm-5"><span class="span-detail">Jantın Çapı : </span></div><span class="span-detail1">@Model.Cap</span></div>
+                                    <div class="bdiv-detail"><div class="col-sm-5"><span class="span-detail">Jantın Eklenme Tarihi : </span></div><span class="span-detail1">@Model.EklenmeTarihi.ToShortDateString()</span></div>
+                                    <div class="gdiv-detail"><div class="col-sm-5"><span class="span-detail">Jantın Açıklaması : </span></div><div class="col-sm-7"><span class="span-detail1">@Model.Aciklama</span></div></div>
+                                </div>
+                            </div>
+                                        <div class="info-content p-taksitler" id="tab4">
+                                            <div class="col-sm-4">
+                                                <table class="table table-striped">
+                                                    <tr>
+                                                        <td colspan="3"><img src="~/Content/img/content/card.png"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th width="20%">Taksit</th>
+                                                        <th width="30%">Taksit Tutarı</th>
+                                                        <th width="40%">Taksitli Tutar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Peşin</td>
+                                                        <td>120 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>60 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>40 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>40 TL</td>
+                                                        <td>160 TL</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <table class="table table-striped">
+                                                    <tr>
+                                                        <td colspan="3"><img src="~/Content/img/content/card2.jpg"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th width="20%">Taksit</th>
+                                                        <th width="30%">Taksit Tutarı</th>
+                                                        <th width="40%">Taksitli Tutar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Peşin</td>
+                                                        <td>120 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>60 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>40 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>40 TL</td>
+                                                        <td>160 TL</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <table class="table table-striped">
+                                                    <tr>
+                                                        <td colspan="3"><img src="~/Content/img/content/card3.jpg"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th width="20%">Taksit</th>
+                                                        <th width="30%">Taksit Tutarı</th>
+                                                        <th width="40%">Taksitli Tutar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Peşin</td>
+                                                        <td>120 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>60 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>40 TL</td>
+                                                        <td>120 TL</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>40 TL</td>
+                                                        <td>160 TL</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="info-content" id="tab5">
+                                            <div class="bigimages">
+                                                @foreach (var item in Model.Resimler)
+                                                {
+                                                    <img src="~/Content/Wheels/@item.ResimUrl">
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+        <!-- Content Ends -->
+        <!-- Footer -->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 footer-social"><a href="#"><i class="icon-facebook-squared"></i></a><a href="#"><i class="icon-twitter-squared"></i></a></div>
+                        <div class="col-sm-4">
+                            <a href="#">
+                                <div class="hide-xs footermessage guvendesiniz">%100 Güvendesiniz</div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#">
+                                <div class="hide-xs footermessage avmgoruntuler">DFA JANT AVM Görüntüleri</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>İLETİŞİM</li>
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">İletişim</a></li>
+                                <li><a href="#">Hesabım</a></li>
+                                <li><a href="#">Yardım</a></li>
+                                <li><a href="#">Ürün Arıza / İade / Değişim</a></li>
+                            </ul>
+                            <ul>
+                                <li>ÜRÜN GARANTİSİ</li>
+                                <li><a href="#">DFAJANT.com.tr</a></li>
+                                <li><a href="#">Garanti Politikası</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <ul>
+                                <li>ÖDEME</li>
+                                <li><a href="#">Ödeme Seçenekleri</a></li>
+                                <li><a href="#">Banka Kampanyaları</a></li>
+                                <li><a href="#">Havale / EFT</a></li>
+                                <li><a href="#">Gizlilik & Güvenlik</a></li>
+                                <li><a href="#">Yasal Haklar</a></li>
+                                <li><a href="#">Mesafeli Satış Sözleşmesi</a></li>
+                                <li class="cards">
+                                    <img src="~/Content/img/content/c-visa.png"><img src="~/Content/img/content/c-master.png"><img src="~/Content/img/content/c-ae.png">
+                                </li>
+                                <li>
+                                    <img src="~/Content/img/content/ssl.png">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <ul>
+                                <li><i class="icon-list"></i>MARKALAR</li>
+                                @{Html.RenderAction("GetAllMarka", "Marka");}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Ends-->
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="~/Content/js/bootstrap.js"></script>
+    <!-- Main JS File -->
+    <script type="text/javascript" src="~/Content/js/main.js"></script>
+    <!-- Flexslider JS -->
+    <script type="text/javascript" src="~/Content/js/jquery.flexslider.js"></script>
+    <!-- Caroufredsel -->
+    <script type="text/javascript" language="javascript" src="~/Content/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="~/Content/fancy/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/fancy/jquery.fancybox.css" media="screen" />
+</body>
+</html>
+
+</html>

@@ -1,0 +1,36 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<Jant.Entities.Urun>
+@{
+    ViewBag.Title = "Markalara Göre Jantlar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-sm-9">
+    @foreach (var item in Model)
+    {
+        @Html.Hidden("UrunId", item.UrunId)
+        <div class="product col-sm-4 ">
+            <div class="product-details">
+                <img src="~/Content/Wheels/@item.Resimler.Select(x=>x.ResimUrl).FirstOrDefault()">
+                <span>@item.Marka.MarkaAdi - @item.UrunKodu</span>
+                <div>@(item.Fiyat-(@item.Fiyat*5/100)) TL</div>
+            </div>
+            <div class="product-details-hover">
+                <div class="likefacebook"><strong>Facebook</strong>'ta Beğenene Anında <strong>%5 Nakit İndirim</strong></div>
+                <div class="fastshipping"><i class="icon-shipping"></i></div>
+                <a href="/Urun/GetProductDetails/?UrunId=@item.UrunId">
+                    <img src="~/Content/Wheels/@item.Resimler.Select(x=>x.ResimUrl).FirstOrDefault() ">
+                </a>
+                <a href="/Urun/GetProductDetails/UrunId?@item.UrunId"><span class="title">@item.Marka.MarkaAdi - @item.UrunKodu</span></a>
+                <div class="price"><span class="oldprice">@(item.Fiyat) Tl</span>@(item.Fiyat-(@item.Fiyat*5/100)) TL<span>+KDV</span></div>
+                <div class="sendbasket"><a href="product-detail.html"><i class="icon-zoom-in"></i></a><a href="/Sepet/AddToCart/?productId=@item.UrunId"><span><i class="icon-basket"></i>Sepete At</span></a> </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="pull-right">
+    <div class="pagedList">
+        @Html.PagedListPager(Model, page => Url.Action("GetProductsByBrandId","Urun", new { page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+    </div>
+
+</div>

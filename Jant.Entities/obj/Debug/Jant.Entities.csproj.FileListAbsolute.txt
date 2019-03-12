@@ -1,0 +1,29 @@
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Furkan\documents\visual studio 2012\Projects\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.csprojResolveAssemblyReference.cache
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.csprojResolveAssemblyReference.cache
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Entities\obj\Debug\Jant.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Entities\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Entities\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Entities\obj\Debug\Jant.Entities.csprojResolveAssemblyReference.cache

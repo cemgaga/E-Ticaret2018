@@ -1,0 +1,34 @@
+﻿@model Jant.Entities.Urun
+
+@if (Model != null)
+{
+    <span style="background-color:#13a1cf;color:white;border-radius:8px"><i class="icon-gift"></i>Haftanın Ürünü</span>
+
+    <div class="productofday">
+        <a href="/Urun/GetProductDetails/?UrunId=@Model.UrunId">
+            <img src="~/Content/Wheels/@Model.Resimler.Select(x=>x.ResimUrl).FirstOrDefault()"></a>
+        <a href="/Urun/GetProductDetails/?UrunId=@Model.UrunId">
+            <span class="title">@Model.Marka.MarkaAdi - @Model.UrunKodu</span>
+        </a>
+        <div class="discount">%10<i class="icon-down-thin"></i></div>
+        <div class="price"style="font-size:14px !important">@Model.Fiyat TL+KDV</div>
+        <div class="price" style="text-decoration:none !important;width:100% !important">@(Model.Fiyat - (Model.Fiyat * 10 / 100)) TL +KDV </div>
+    </div>
+    
+    
+}
+else
+{
+    <span><i class="icon-gift"></i>Ayın Ürünü</span>
+
+    <div class="mostsale">
+        <a href="#">
+            <img src=""></a>
+        <a href="#">
+            <div class="title">Girilmemiş</div>
+        </a>
+        <div class="price"></div>
+    </div>
+
+}
+

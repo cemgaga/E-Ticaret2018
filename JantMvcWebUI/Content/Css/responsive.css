@@ -1,0 +1,131 @@
+/* ========================================================================================================================================= */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .flex-control-nav { display: none; }
+    .hide-xs { display: none;}
+    #slider {margin-top: 25px;}
+    #left-menu { display: none;}
+    #sub-header input[type="text"] { font-size: 12px; width: 66%;}
+    .flexslider:hover .flex-next {opacity: 0.8; right: 3px;}
+    #content .section { margin-right: 15px;  margin-left: 15px;}
+    #content #most-popular { height: 650px; }
+    #searchbar {	display: none;    }
+    .tabs ul li { margin: 0 10px 0 10px; }
+    .tabs ul {   display: none; }
+    .tab-res { display: inline-block; }
+    .price-line label { width: 75px; }
+    .product-right-side { padding-left: 30px; }
+    .detail-middle { padding-left: 30px; }
+    #content .row .product-name { padding-top: 0px; font-size: 13px; }
+    .address { margin-bottom: 20px;}
+    .creditcard {width: 90%;}
+    .taksit {font-size: 12px;}
+    .taksit span { width: 70px; }
+    .hideoniphone { display: none;}
+    .form-inputs { padding-left: 15px; padding-right: 15px; }
+}
+/* ========================================================================================================================================= */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .flex-control-nav { display: none; }
+    .hide-s { display: none;}
+    #slider {margin-top: 25px;}
+    #sub-header input[type="text"] { font-size: 12px; width: 60%;}
+    #left-menu { display: none;}
+    .flexslider:hover .flex-next {opacity: 0.8; right: 3px;}
+    #content .section { margin-right: 15px;  margin-left: 15px;}
+    #content #most-popular { height: 650px; }
+    #searchbar {	display: none;    }
+    .tabs ul li { margin: 0 10px 0 10px; }
+    .tabs ul {   display: none; }
+    .tab-res { display: inline-block; }
+    .price-line label { width: 75px; }
+    .detail-middle { padding-left: 30px; }
+    .product-right-side { padding-left: 30px; }
+    #content .row .product-name { padding-top: 0px; font-size: 13px; }
+    .address { margin-bottom: 20px;}
+    .creditcard {width: 90%;}
+    .taksit {font-size: 12px;}
+    .taksit span { width: 70px; }
+    .hideoniphone { display: none;}
+    .form-inputs { padding-left: 15px; padding-right: 15px; }
+
+}
+/* ========================================================================================================================================= */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .flex-control-nav { display: none; }
+    .hide-m { display: none; }
+    #sub-header input[type="text"] { font-size: 12px; width: 56%;}
+    #left-menu { display: none;}
+    .flexslider:hover .flex-next {opacity: 0.8; right: 3px;}
+    #content .section { margin-right: -15px;  margin-left: 15px;}
+    #content #most-popular { height: 320px; }
+    #slider {margin-top: 25px;}
+    .hide-e { display: none;}
+    #logo { width: 197px; }
+    .tabs ul li { margin: 0 10px 0 10px; }
+    .tabs ul {   display:  inline-block; }
+    .tab-res { display: none; }
+    .price-line label { width: 75px; }
+    .detail-middle { margin: 0 30px 0 30px; }
+    .product-right-side { padding-left: 0px; }
+    #content .row .product-name { padding-top: 20px; font-size: 13px; }
+    .taksit span { width: 100px; }
+    .hide-ipad-dikey { display: none;}
+    .b-product input[type="text"] { width: 50px; }
+    .number span { width: 55px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#content .section { margin-right: -15px;  margin-left: 15px;}
+	#content #most-popular { height: 310px;}
+    .hide-m {display: none;}
+	#sub-header input[type="text"] { font-size: 12px; width: 66%;}
+    .tabs ul li { margin: 0 25px 0 25px; }
+    .tabs ul {   display: inline-block; }
+    .tab-res { display: none; }
+    .price-line label { width: 75px; }
+    .product-right-side { padding-left: 00px; }
+    #content .row .product-name { padding-top: 20px; font-size: 14px; }
+    .taksit span { width: 100px; }
+    .b-product input[type="text"] { width: 50px; }
+    .number span { width: 55px; }
+
+}
+/* ========================================================================================================================================= */
+@media only screen and (min-width: 1024) and (max-width: 1199px) {
+	.hide-l { display: none;}
+	#sub-header input[type="text"] { font-size: 12px; width: 66%;}
+	#slider {margin: 0;}
+	.flexslider:hover .flex-next {opacity: 0.8; right: 45px;}
+	#content .section { margin-right: -15px !important; margin-left: 15px;}
+	#content #most-popular { height: 100px; }
+    .tabs ul li { margin: 0 25px 0 25px; }
+    .tabs ul {   display: inline-block; }
+    .tab-res { display: none; }
+    .price-line label { width: 150px; }
+    .product-right-side { padding-left: 30px; }
+    #content .row .product-name { padding-top: 20px; font-size: 15px; }
+    .taksit span { width: 100px; }
+    .b-product input[type="text"] { width: 50px; }
+    .number span { width: 55px; }
+	
+}
+/* ========================================================================================================================================= */
+@media only screen and (min-width: 1200px) { 
+	.hide-xl { display: none;}
+	#sub-header input[type="text"] { font-size: 13px; width: 67%;}
+	#slider {margin: 0;}
+	.flexslider:hover .flex-next {opacity: 0.8; right: 45px; margin-left: 15px;}
+	#content .section { margin-right: -15px; margin-left: 15px;}
+	#content #most-popular { height: 320px; }
+    .tabs ul li { margin: 0 25px 0 25px; }
+    .tabs ul {   display: inline-block; }
+    .tab-res { display: none; }
+    .price-line label { width: 150px; }
+    .product-right-side { padding-left: 30px; }
+    .detail-middle { width:100% !important;}
+    #content .row .product-name { padding-top: 20px; font-size: 15px; }
+    .taksit span { width: 100px; }
+    .b-product input[type="text"] { width: 70px; }
+     .number span { width: 70px; }
+}
+/* ========================================================================================================================================= */

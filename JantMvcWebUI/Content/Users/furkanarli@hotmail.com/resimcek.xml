@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Seçilen jant ve araç resmi-->
+<data>
+  <gun name="1">
+    <resim>http://localhost:54133/Content/Users/furkanarli@hotmail.com/furkanarli@hotmail.com.jpg</resim>
+  </gun>
+  <gun name="2">
+    <resim>http://localhost:54133/Content/Wheels/14-01-2015-02-18-45resim2015_1_14_2_6_3_955.png</resim>
+  </gun>
+  <gun name="3">
+    <resim>http://localhost:54133/Content/Wheels/14-01-2015-02-18-45resim2015_1_14_2_6_3_955.png</resim>
+  </gun>
+</data>

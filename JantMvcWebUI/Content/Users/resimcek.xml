@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Seçilen jant ve araç resmi-->
+<data>
+  <gun name="1">
+    <resim>http://localhost:54133/Content/Users//.jpg</resim>
+  </gun>
+  <gun name="2">
+    <resim>http://localhost:54133/Content/Wheels/</resim>
+  </gun>
+  <gun name="3">
+    <resim>http://localhost:54133/Content/Wheels/</resim>
+  </gun>
+</data>

@@ -1,0 +1,17 @@
+﻿@model List<Jant.Entities.Marka>
+
+
+@foreach (var item in Model)
+{    
+    <li>
+        @Html.RouteLink(item.MarkaAdi, new
+            {
+                markaId = item.MarkaId,
+                controller = "Urun",
+                action = "GetProductsByBrandId"
+            })
+    </li>
+}
+
+
+

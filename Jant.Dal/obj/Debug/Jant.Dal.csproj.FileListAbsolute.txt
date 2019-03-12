@@ -1,0 +1,72 @@
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\ADNAN\Desktop\E-Ticaret\Jant.Dal\obj\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Desktop\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\Furkan\Documents\Visual Studio 2012\Projects\E-Ticaret SonHali\Jant.Dal\obj\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\Yeni klasör (4)\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.dll.config
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Dal.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Entities.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\Jant.Entities.pdb
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.dll
+C:\Users\Cem\Desktop\e-ticaret\E-Ticaret SonHali - Kopya\Jant.Dal\obj\Debug\Jant.Dal.pdb

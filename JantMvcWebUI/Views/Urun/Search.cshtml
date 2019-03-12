@@ -1,0 +1,28 @@
+﻿@model List<Jant.Entities.Urun>
+@{
+    ViewBag.Title = "Arama Sonuçları";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-sm-9">
+    @foreach (var item in Model)
+    {
+        <div class="product col-sm-4 ">
+            @Html.Hidden("UrunId", item.UrunId)
+            <div class="product-details">
+                <img src="~/Content/img/content/s3.jpg">
+                <span>@item.Marka.MarkaAdi - @item.UrunKodu</span>
+                <div>@item.Fiyat TL</div>
+            </div>
+            <div class="product-details-hover">
+                <div class="likefacebook"><strong>Facebook</strong>'ta Beğenene Anında <strong>%5 Nakit İndirim</strong></div>
+                <div class="fastshipping"><i class="icon-shipping"></i></div>
+                <a href="/Urun/GetProductDetails/?UrunId=@item.UrunId">
+                    <img src="~/Content/img/content/s3.jpg ">
+                </a>
+                <a href="/Urun/GetProductDetails/?UrunId=@item.UrunId"><span class="title">@item.Marka.MarkaAdi - @item.UrunKodu</span></a>
+                <div class="price"><span class="oldprice">@(item.Fiyat * 2) Tl</span>@item.Fiyat TL<span>+KDV</span></div>
+                <div class="sendbasket"><a href="product-detail.html"><i class="icon-zoom-in"></i></a><a href="basket.html"><span><i class="icon-basket"></i>Sepete At</span></a> </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,110 @@
+﻿@model List<Jant.Entities.Marka>
+@{
+    ViewBag.Title = "AddBrand";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@section scripts{
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+   @* <script src="@Url.Content("~/Scripts/Medicalscript.js")" type="text/javascript"></script>*@
+
+    <script type="text/javascript">
+        var sayac = 0;
+        $("#checkAll").click(function () {
+            sayac = sayac + 1;
+            $('input[type=checkbox]').each(function () {
+                if (sayac % 2 == 1) {
+                    this.checked = true;
+                } else {
+                    this.checked = false;
+                }
+
+
+            });
+        });
+    </script>
+}
+
+
+@using (Html.BeginForm("AddBrand", "Admin", FormMethod.Post))
+{
+    <div class="col-lg-8">
+        <div id="basket">
+            <div class="basket-title">
+                <i class="icon-list"></i>Markalarınız
+                <div class="productcount hide-xs hide-s pull-right">Şuan sisteminizde <span>@Model.Count</span> adet Marka bulunmaktadır.</div>
+            </div>
+            <div class="hideoniphone add-brand">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-sm-10">
+                            <div class="col-sm-4"><label>Yeni Marka Adını Girin :</label></div>
+                            <div class="col-sm-8">@Html.TextBox("markaAdi")</div>
+                        </div>
+                        <div class="col-sm-2 blue-btn"><input type="submit" name="name" value="Markayı Ekle" /></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+}
+@using (Html.BeginForm("DeleteBrands", "Admin", FormMethod.Post))
+{
+    <div class="col-lg-8">
+        <div id="basket">
+            <div class="hideoniphone add-brand">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="b-product-header">
+                            <div class="col-sm-10 ">&nbsp;&nbsp; Markalar</div>
+                            <div class="col-sm-2">
+                                <div class="row ">
+                                    <span id="checkAll" style="cursor:pointer"><i class="icon-right-open"></i>Tümünü Seç</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="b-product">
+                                <div class="col-sm-2 image">
+                                    <a href="/Urun/GetProductsByBrandId/?markaId=@item.MarkaId">
+                                        @item.MarkaId
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 name"><a href="/Urun/GetProductsByBrandId/?markaId=@item.MarkaId">@item.MarkaAdi</a></div>
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-2 select">
+                                    <div class="checkbox">
+                                        <input type="checkbox" name="MarkaId" value="@item.MarkaId"><label></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="order-summary.html">
+                            <div class="submit green-btn pull-right">
+                                <input type="submit" name="name" value="Seçilenleri Sil" /> <div class="arrow-down"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}
+

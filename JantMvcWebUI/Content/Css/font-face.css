@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'gothamrounded';
+    src: url('../font/gothamrounded.eot');
+    src: url('../font/gothamrounded.eot?#iefix') format('embedded-opentype'),
+         url('../font/gothamrounded.woff') format('woff'),
+         url('../font/gothamrounded.ttf') format('truetype'),
+         url('../font/gothamrounded.svg#Sri-TSCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }

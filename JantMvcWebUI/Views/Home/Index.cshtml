@@ -1,0 +1,162 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<Jant.Entities.Urun>
+@{
+    ViewBag.Title = "DFA Jant-Anasayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-9">
+    <div id="slider">
+        <div class="flexslider" id="mainslider">
+            <ul class="slides">
+                <li>
+                    <img src="~/Content/img/slider/1.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/slider/2.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/slider/3.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/slider/4.jpg" />
+                </li>
+                <li>
+                    <img src="~/Content/img/slider/5.jpg" />
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-9">
+    <div id="most-popular">
+        <div class="row">
+            <div class="section col-sm-4 ">
+                <span style="background-color:#13a1cf;color:white;border-radius:8px"><i class="icon-thumbs-up"></i>Ayın Ürünleri</span>
+                <div class="flexslider" id="mostsellsslider">
+                    <ul class="slides">
+                         @{Html.RenderAction("GetProductsOfMonth", "Urun");}
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-sm-4 section">
+               @{Html.RenderAction("GetProductOfWeek", "Urun");}
+            </div>
+            <div class="col-sm-4 hide-xs hide-s section sale">
+                <span style="background-color:#13a1cf;color:white;border-radius:8px"><i class="icon-eye" style="color:black !important" ></i>Seçiminizi Filtreleyin</span>
+                @using (Html.BeginForm("FilteredResult", "Home", FormMethod.Post))
+                {
+                    <div class="mostsale" style="background-color:#E8F0EF;border-radius:15px">
+                    <div style="background-color:#3F99FF">
+                        <span style="color:white"><i class="icon-right-open" style="color:white"></i style="color:white">Jant Tipi:</span>
+                        <div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("tip","Alm") Aliminyum
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("tip","Clk") Çelik
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("tip","Sac") Sac
+                            </div>
+
+                        </div> 
+                        
+                    </div>
+                    <div style="clear:both"></div>
+
+                    <div style="background-color:#3F99FF" >
+                        <span style="color:white"><i class="icon-right-open" style="color:white"></i>Jant Çapı(İnç):</span>
+                        <div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","13") 13
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","14") 14
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","15") 15
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","16") 16
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","17") 17
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","18") 18
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","19") 19
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("cap","22") 22
+                            </div>
+                        </div> 
+                    </div>
+                        <div style="clear:both"></div>
+                    <div style="background-color:#3F99FF" >
+                        <span style="color:white"><i class="icon-right-open" style="color:white"></i style="color:white">Fiyat Aralığı(TL):</span>
+                        <div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("fiyat","0-400") 0-400 TL
+                            </div>
+                            
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                &nbsp; @Html.RadioButton("fiyat","401-800") 401-800 TL
+                            </div>
+                            
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("fiyat","801-999") 801-999TL
+                            </div>
+                            <div style="float:left;font-family:gothamrounded;margin-left:30px">
+                                @Html.RadioButton("fiyat","1000+") 1000 + TL
+                                
+                            </div>
+                        </div> 
+                        
+                    </div>
+                        <div class="blue-btn" >
+                            <input type="submit" value="Ara"/>
+                        </div>
+                    
+                </div>
+                }
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-9">
+    @foreach (var item in Model)
+    {
+        <div class="product col-sm-4 ">
+            <div class="product-details">
+                <img src="~/Content/Wheels/@item.Resimler.Select(x=>x.ResimUrl).FirstOrDefault()">
+                <span>@item.Marka.MarkaAdi - @item.UrunKodu</span>
+                <div>@(item.Fiyat-(@item.Fiyat*5/100)) TL</div>
+            </div>
+            <div class="product-details-hover">
+                <div class="likefacebook"><strong>Facebook</strong>'ta Beğenene Anında <strong>%5 Nakit İndirim</strong></div>
+                <div class="fastshipping"><i class="icon-shipping"></i></div>
+                <a href="/Urun/GetProductDetails/?UrunId=@item.UrunId">
+                    <img src="~/Content/Wheels/@item.Resimler.Select(x=>x.ResimUrl).FirstOrDefault() ">
+                </a>
+                <a href="/Urun/GetProductDetails/?UrunId=@item.UrunId"><span class="title">@item.Marka.MarkaAdi - @item.UrunKodu</span></a>
+                <div class="price"><span class="oldprice">@(item.Fiyat) Tl</span>@(item.Fiyat-(@item.Fiyat*5/100)) TL<span>+KDV</span></div>
+                <div class="sendbasket"><a href="/Urun/GetProductDetails/?UrunId=@item.UrunId"><i class="icon-zoom-in"></i></a><a href="/Sepet/AddToCart/?productId=@item.UrunId"><span><i class="icon-basket"></i>Sepete At</span></a> </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="pull-right">
+    <div class="pagedList">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+    </div>
+
+</div>
+
+
+

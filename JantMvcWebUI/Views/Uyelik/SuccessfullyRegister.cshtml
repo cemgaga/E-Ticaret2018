@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Başarılı Üyelik";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Scripts {
+<script type="text/javascript">
+    window.setTimeout(function () {
+        window.location.href = '@Url.Action("Index", "Home")';
+    }, 2000);
+</script>
+    }
+<div class="col-lg-9 login-form">
+    <div class="login-form-title">Üyeliğiniz Başarılı Bir Şekilde Gerçekleşmiştir..</div>
+</div>
